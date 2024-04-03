@@ -1,32 +1,3 @@
-#David Choi vsk2re
-#Titus Lee hvm4sg
-
-#We are going to recreate Pac-Man. Pac-Man is a maze chase game where the player controls a character in a maze filled with dots.
-#The objective of the game is for the player to collect every dot in the maze. While trying to collect the dots, there are 4 colored
-#ghosts that try to stop Pac-Man from getting all the dots.
-
-#Basic Features:
-#1. The arrow keys will be used to control the X and Y movments for Pac-Man.
-#2. If the ghosts collide with Pac-Man, the player will lose the game and the game ends.
-#3. We will use Pac-Man images and ghost images.
-
-#Additional Features:
-#1. There will be a timer that counts down. The player must collect all the coins before the timer reaches zero.
-#2. There will be collectibles in the game, which will be dots (coins) placed around the maze. The only way to beat each level is by collecting
-#   the coins.
-#3. The user will be able to restart the game after they win/lose without re-running the program.
-#4. There will be enemies that try to stop the player from collecting all the dots called ghosts. If the player touches a ghost, they lose the game.
-
-#Changes From CP2
-#We decided to swap out the multiple level and the sprite animation additional features with a timer and a restart feature.
-#We added coins to the game which are stored in lists. When touched by pacman, they disappear and are then converted to points.
-#Enemies have been added to the game. They are visualized as ghosts that float through the maze. If pacman touches a ghost, the player loses.
-#We added an image of a smiley face for pacman instead of just a yellow box.
-#A timer and the number of coins collected have been added to the center of the maze. If the timer reaches 0, the player loses.
-#Pacman's movements have been refined so the movements are less choppy and we removed stuttering that used to exist when hitting walls.
-#The restart feature that has been added allows users to press 'r' to continue playing once the game is finished.
-#The timer counts down 120 seconds. If the user has not collected all the coins in 120 seconds, the player loses.
-
 #Instructions
 #Once the program is run, the game begins. Pacman can be controlled the W A S and D keys. W and S control vertical movements and
 #A and D control horizontal movments. The player must collect all the coins to win the game. Coins can be collected by touching them.
