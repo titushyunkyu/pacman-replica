@@ -12,4 +12,4 @@ Basic features include:
 - Once the game is over (either through completion or failure), the user is prompted to either restart the game or quit.
 - Ghosts' movements are completely randomized.
 
-<img src="https://titushyunkyu.com/pacman%20photo.png">
+<img src="https://titushyunkyu.com/images/pacman%20photo.png">
